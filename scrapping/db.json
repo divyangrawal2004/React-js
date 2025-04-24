@@ -1,0 +1,437 @@
+{
+  "Red & White Education Multimedia Data" :{
+    "Header" : {
+      "Logo":{
+        "Image": "https://www.rnwmultimedia.edu.in/assets/img/photos/rnw-logo.png"
+      },
+      "Menu" : [
+        "Home",
+        {
+          "STD 10th & 12th " : [
+            "ITS-CS+",
+            "Animation & VFX 2 year",
+            "Business Administration Commerce Career"
+          ]
+        },
+        {
+          "Career Courses" : 
+           {
+            "Designing": [
+              "Master in Graphic Design",
+              "Master in UI/UX & Graphic Design",
+              "UI/UX Design course",
+              "Master in Game Design"
+            ],
+            "Visualization": [
+              "Master in Animation",
+              "Animation & VFX 2 year"
+            ],
+            "Coding & Programming":[
+              "Master in Web Designing",
+              "Master in Web Development",
+              "Master in Front End Developing",
+              "Master in iOS Development",
+              "Master in Android Development",
+              "Master in Flutter",
+              "Master in Game Development",
+              "Full Stack Development",
+              "Advance in Python"
+            ]
+          
+           }  
+        },
+        {
+          "Course": {
+            "Programming" : [
+              "Java",
+              "Android",
+              "iOS",
+              "React Native",
+              "React.Js",
+              "Node.Js",
+              "PHP",
+              "Unity C# Script",
+              "Angular Js",
+              "laravel",
+              "Python"
+            ],
+            "Graphic Design" : [
+              "Photoshop",
+              "Illustrator",
+              "Figma",
+              "Corel Draw",
+              "After Effects",
+              "Poster Designing "  
+            ],
+            "Video Editing": [
+              "Video Editing",
+              "Davinci Resolve Course"
+            ],
+            "Short Term": [
+              "Microsoft Office",
+              "Cyber Security",
+              "Full Stack Development Bootcamp",
+              "Data Analysis",
+              "Autodesk Autocad course",
+              "Digital Marketing",
+              "Visual Effects Course"
+            ],
+            "Fronted Coding" : [
+              "Bootstrap",
+              "HTML5 CSS3"
+            ],
+            "Project training": [
+              "PHP",
+              "Android Training",
+              "iOS",
+              "Java",
+              "Flutter",
+              "Python"
+            ],
+            "Foundation Courses": [
+              "CCC",
+              "C & C++",
+              "Software Development",
+              "Foundation"
+            ],
+            "Corporate Training": [
+              "Public Speaking Course",
+              "Entrepreneurship Bootcamp"
+            ],
+            "Next-GEN technologies": [
+              "Data Science & AI-ML Python",
+              "AR-VR"
+            ],
+            "Accounting" : [
+              "Diploma in Practical Accounting & Taxation"
+            ]
+          }
+        },
+        {
+          "About us" : [
+            {
+              "Group of institutes" : [
+                "RNW Designing institute",
+                "RNW International"
+              ]
+            },
+            "Career With Us",
+            "Affiliations / Authorised",
+            "Press Notes"
+          ]
+        },
+        {
+          "Student Corner" : [
+            "Apply job",
+            "Placement",
+            "Company Visit",
+            "Expert Session",
+            "Placement Drive",
+            "Grievance",
+            "Why I Choose RNW",
+            "Placement Partners",
+            "Student Works"
+          ]
+        },
+        "Contact Us"
+      ]
+     },
+     
+      "Banner" : {
+        "Image" : "https://www.rnwmultimedia.edu.in/assets/img/slider/rnw_web_slider2.png"
+      },
+     
+      "Statistics" : {
+        "Students Trained": "40,000+",
+        "Approved Courses" : "50+",
+        "Companies Tie-Ups": "1500+",
+        "Branches": "22+",
+        "Certification": "8"
+    
+      },
+    
+      "Title": "Pick The Right Course To Build Your Career",
+      "Course" : [
+        "Web Designing",
+        "iOS Development",
+        "Web Development",
+        "Android Development",
+        "Animation",
+        "AI & Data Science",
+        "Game Design & Development",
+        "Full Stack Development",
+        "UI-UX & Graphics Design",
+        "Poster-Design",
+        "Cyber Security"
+      ],
+    
+      "Syllabus-mentor": "Our Syllabus Mentor",
+      "Mentors": [
+        {
+          "name": "Mr. Alok Kumar",
+          "designation": "Director UX @ Myntra",
+          "experience": "Ex Walmart, Microsoft, Vedantu, BlueStone",
+          "mentorOf": "UI/UX",
+          "social": ["LinkedIn", "X"]
+        },
+        {
+          "name": "Mr. Piyush Jinjala",
+          "designation": "Compositor Associate at Sony Pictures Imageworks, Canada",
+          "mentorOf": "Animation",
+          "social": ["LinkedIn", "X"]
+        },
+        {
+          "name": "Mr. Jemish Lakhani",
+          "designation": "Founder & CEO of XSQUADS Tech Pvt Ltd",
+          "mentorOf": "Game Design & Development",
+          "social": ["LinkedIn", "X"]
+        },
+        {
+          "name": "Mr. Mohit Rajput",
+          "designation": "Professional Bollywood Movie Poster Designer",
+          "mentorOf": "Graphic Design",
+          "social": ["Instagram"]
+        }
+      ],
+      "Section-heading" : "Legacy of 100% Trust with Students & Parents",
+      "Description" : "All types of IT & Multimedia technology-oriented knowledge-providing organizations means Red & White, where all the syllabus are developed on a research basis. some of the benefits to study in Red & White...",
+      "Media" : {
+        "Type": "video",
+        "VideoURL": "https://youtu.be/_DYPZYuimGk?si=NCR4o8i8d4hDmYDp"
+      },
+      "Benefits": [
+        "100% field Oriented Training.",
+        "Courses according to the international approach.",
+        "25% Scholarship to an orphan student.",
+        "\"Growth Mindset\" Culture",
+        "Company Visit",
+        "Multiple Training Center",
+        "International collaborations like ISO Approved.",
+        "A wonderful campus where education is a perfect combination of humour with knowledge and personality development.",
+        "Day & Events Celebration"
+      ],
+    
+      "Heading" : "Gujarat's #1 Web Design Course Training Institute",
+      "Subheading" : "Red and White Skill Education",
+      "Description-heading":"Red and White Skill Education is one of the best web design training institutes in Surat, offering an advanced web design course module. Students who are taking web design classes with us are extremely satisfied. Here are a few reasons why students prefer us:",
+      "Reasons" : [
+        "Certified Course",
+        "Job Support",
+        "Various Events",
+        "Multiple Training Centers",
+        "Industry-Oriented Training",
+        "Multiple Placement Partners",
+        "Trusted by Students",
+        "World-Class Infrastructure"
+      ],
+      "Apply-button" : {
+        "Text" : "Apply Now"
+      },
+      "Mediavideo" : {
+        "Type" : "video",
+        "Title": "Red & White Sapano se safalta tak",   
+        "VideoURL": "https://youtu.be/HEUCs224my4?si=LizU27gGc1AfbpYc"
+      },
+    
+      "SectionTitle" : "We are in",
+      "Locations" : [
+        {
+          "City": "Surat",
+          "LocationsCount": 8,
+          "Image": "https://www.rnwmultimedia.edu.in/new_panel/uploads/city_image-1689422869872-961501515.png"
+        },
+        {
+          "City": "Ahmedabad",
+          "LocationsCount": 6,
+          "Image": "https://www.rnwmultimedia.edu.in/new_panel/uploads/city_image-1689571253161-647992325.png"
+        },
+        {
+          "City": "Rajkot",
+          "LocationsCount": 2,
+          "Image": "https://www.rnwmultimedia.edu.in/new_panel/uploads/city_image-1689422909981-84113364.png"
+        },
+        {
+          "City": "Amreli",
+          "LocationsCount": 1,
+          "Image": "https://www.rnwmultimedia.edu.in/new_panel/uploads/city_image-1689422920706-236410409.png"
+        },
+        {
+          "city": "Anand",
+          "locationsCount": 1,
+          "image": "https://www.rnwmultimedia.edu.in/new_panel/uploads/city_image-1689570025417-692172.png"
+        },
+        {
+          "City": "Bhavnagar",
+          "LocationsCount": 1,
+          "Image": "https://www.rnwmultimedia.edu.in/new_panel/uploads/city_image-1689423527118-382514879.png"
+        },
+        {
+          "City": "Navsari",
+          "LocationsCount": 1,
+          "Image": "https://www.rnwmultimedia.edu.in/new_panel/uploads/navsari.png"
+        },
+        {
+          "City": "Gandhinagar",
+          "LocationsCount": 1,
+          "Image": "https://www.rnwmultimedia.edu.in/new_panel/uploads/gandhinagar-1.jpg"
+        },
+        {
+          "City": "Bharuch",
+          "LocationsCount": 1,
+          "Image": "https://www.rnwmultimedia.edu.in/new_panel/uploads/city_image-1706614514308-195078638.jpg"
+        }
+      ],
+    
+      "CourseTitle" : "Trending Courses",
+      "Courses" : [
+        {
+          "Id" : "1",
+          "Title": "Game Design",
+          "Level": "Master in",
+          "Image": "https://www.rnwmultimedia.edu.in/images/game-design.jpg",
+          "ButtonText": "View More"
+        },
+        {
+          "Id": 2,
+          "Title": "Game Development",
+          "Level": "Master in",
+          "Image": "https://www.rnwmultimedia.edu.in/images/game-design.jpg",
+          "ButtonText": "View More"
+        },
+        {
+          "Id": 3,
+          "Title": "Animation",
+          "Level": "Master in",
+          "Image": "https://www.rnwmultimedia.edu.in/images/animation.jpg",
+          "ButtonText": "View More"
+        },
+        {
+          "Id": 4,
+          "Title": "Flutter",
+          "Level": "Master in",
+          "Image": "https://www.rnwmultimedia.edu.in/images/flutter-development.jpg",
+          "ButtonText": "View More"
+        },
+        {
+          "Id": 5,
+          "Title": "C & C++",
+          "Level": "Advance in",
+          "Image": "https://www.rnwmultimedia.edu.in/images/c-and-c++.jpg",
+          "ButtonText": "View More"
+        },
+        {
+          "Id": 6,
+          "Title": "Java",
+          "Level": "Advance in",
+          "Image": "https://www.rnwmultimedia.edu.in/images/java.jpg",
+          "ButtonText": "View More"
+        }
+      ],
+    
+    
+      "Infrastructure": {
+        "Title": "World-class infrastructure to develop student careers at the international level.",
+        "Description": "One of the most trusted and certified Computer training institute for IT course in Surat city. We conduct wide range computers courses and software training course that are highly in demand. Every class that is conducted over here is fully loaded with practical exposure. There multiple information technology institute and classes but what makes us different is knowledge along with certificate.",
+        "Images": [
+          {
+            "Id": 1,
+            "Image": "https://www.rnwmultimedia.edu.in/assets/img/photos/infra_1.jpg",
+            "Alt": "Modern reception area"
+          },
+          {
+            "Id": 2,
+            "Image": "https://www.rnwmultimedia.edu.in/assets/img/photos/infra_2.jpg",
+            "Alt": "Waiting area with chairs"
+          },
+          {
+            "Id": 3,
+            "Image": "https://www.rnwmultimedia.edu.in/assets/img/photos/infra_3.jpg",
+            "Alt": "Creative student lounge"
+          },
+          {
+            "Id": 4,
+            "Image": "https://www.rnwmultimedia.edu.in/assets/img/photos/infra_7.jpg",
+            "Alt": "Modern classroom interior"
+          },
+          {
+            "Id": 5,
+            "Image": "https://www.rnwmultimedia.edu.in/assets/img/photos/infra_5.jpg",
+            "Alt": "Professional office setup"
+          }
+        ]
+      },
+    
+      "Reviews": {
+        "Name": "Himanshu Kachhadiya",
+        "Rating": 5,
+        "Text": "When I joined GIM after completing Std. 10, I felt that I wanted to be a developer, but when I heard about this GIM course and saw it, I felt that I should recognize my inner strength and then decide what I am made for. Chosen the Designing Field and today I work as a Team Leader in a very reputable company. And 30+ Employees work in my under right now. And since the job is 8 hours, I do freelance work comfortably. So behind this success, I would like to thank RNW and the mentors there and send a message that every student should recognize their inner strength, advance their career, and take up skill education."
+      },
+    
+      "Footer" : [
+        {
+          "Description" : "The image is a contact and information page for RNW Multimedia. It is divided into four sections: 'Contact Us', 'Trending Course', 'Important Pages', and 'Be Recruiter'. Each section lists relevant information and links.",
+          "Sections" : {
+            "Contact-us" : {
+              "Our-Branches" : [
+                "A K Road",
+                "Yogi Chowk",
+                "Sarthana",
+                "Mota Varachha",
+                "Ved Road",
+                "Adajan",
+                "Dindoli",
+                "Vesu"
+              ],
+              "phone": "+91 7878 444 333",
+              "franchise_information": "Franchise Information",
+              "email": "info@rnwmultimedia.edu.in",
+              "social_media": [
+                "Facebook",
+                "X",
+                "Instagram",
+                "YouTube",
+                "LinkedIn"
+              ]
+            },
+            "TRENDING COURSE" : [
+              "PHP",
+          "Project Training Surat",
+          "Android Training Course",
+          "Web Designing Training Course",
+          "Full Stack Development Course"
+            ],
+            "Important Pages": [
+              "Home",
+              "Contact Us",
+              "About Us",
+              "Blog",
+              "Events",
+              "Approval",
+              "Students T&C",
+              "Sitemap",
+              "Cities Sitemap",
+              "Student Login"
+            ],
+            "Be Recruiter": {
+              "company_login_register": "Company Login/Register",
+              "company_t&c": "Company T&C",
+              "placement_student_login": "Placement Student Login",
+              "placement_student_t&c": "Placement Student T&C",
+              "phone": "+91 93313 13196",
+              "email": "placement@rnwmultimedia.edu.in",
+              "logos": [
+                "Logo 1",
+                "Logo 2",
+                "Logo 3",
+                "Logo 4"
+              ]
+            }
+          }
+        }
+      ]
+    
+  }
+}
+
+
+

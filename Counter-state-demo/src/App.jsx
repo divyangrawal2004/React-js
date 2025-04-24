@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Add from "./Counter/Counter";
 import Counter from "./Counter/Counter";
+import Todo from "./Todo-list/Todo";
 
 function App() {
   let[cnt,setCnt] = useState(0);
@@ -11,7 +11,6 @@ function App() {
 
   let[add,setAdd] = useState(0);
 
-
   const Add= () => {
     setAdd(add+1);
   }
@@ -21,8 +20,16 @@ function App() {
   }
 
   const reset= () => {
-    setAdd(0);
+    setAdd(add = 0);
   }
+
+  let [todo,setTodo] = useState([
+    {id:1,name:"Divu"},
+    {id:2,name:"Shivu"},
+    {id:3,name:"Raju"},
+    {id:4,name:"Babu"},
+  ])
+
 
 
   return (
@@ -38,6 +45,10 @@ function App() {
       Add = {Add}
       minus = {minus}
       reset = {reset}
+    />
+
+    <Todo
+      todo = {todo}
     />
   </div>
 

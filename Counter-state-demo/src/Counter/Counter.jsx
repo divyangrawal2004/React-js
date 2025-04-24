@@ -1,12 +1,17 @@
-const Counter = ({add,Add,minus,reset}) => {
+import React from 'react';
+import './Counter.css'; 
+const Counter = ({ add, Add, minus, reset }) => {
     return (
-        <div align="center">
-            <h1>Counter</h1>
-            <h2>Counter: {add}</h2>
-            <button onClick={Add} style={{margin:"10px"}}>Add</button>
-            <button onClick={minus} style={{margin:"10px"}}>minus</button>
-            <button onClick={reset}>Reset</button>
+        <div className="counter-container">
+            <h1 className="counter-title">Counter</h1>
+            <h2 className="counter-value">Counter: {add}</h2>
+            <div className="button-container">
+                <button className="counter-button add-button" onClick={Add}>Add</button>
+                <button className="counter-button minus-button" disabled={add === 0} onClick={minus}>Minus</button>
+                <button className="counter-button reset-button" onClick={reset}>Reset</button>
+            </div>
         </div>
-    )
+    );
 }
+
 export default Counter;
