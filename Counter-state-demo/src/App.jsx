@@ -23,23 +23,24 @@ function App() {
     setAdd(add = 0);
   }
 
-  let [todo,setTodo] = useState([
-    {id:1,name:"Divu"},
-    {id:2,name:"Shivu"},
-    {id:3,name:"Raju"},
-    {id:4,name:"Babu"},
-  ])
+  // let [todo,setTodo] = useState([
+  //   {id:1,name:"Divu"},
+  //   {id:2,name:"Shivu"},
+  //   {id:3,name:"Raju"},
+  //   {id:4,name:"Babu"},
+  // ])
 
 
 
   return (
-  <div>
-      <div align="center">
-      <h1 >Counter</h1>
-      <h2>Counter :- {cnt}</h2>
-      <button onClick={() => plus()}>Plus</button>
-    </div>
+  // <div>
+  //     <div align="center">
+  //     <h1 >Counter</h1>
+  //     <h2>Counter :- {cnt}</h2>
+  //     <button onClick={() => plus()}>Plus</button>
+  //   </div>
 
+   <>
     <Counter
       add = {add}
       Add = {Add}
@@ -47,10 +48,12 @@ function App() {
       reset = {reset}
     />
 
-    <Todo
+    {/* <Todo
       todo = {todo}
-    />
-  </div>
+    /> */}
+   
+   </>
+
 
 
   )
