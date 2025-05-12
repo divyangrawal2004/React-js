@@ -15,3 +15,4 @@ let products = [
     {id : 8, name : "lg", categary : "tv"},
     {id : 9, name : "panasonic", categary : "tv"},
 ]
+export {categary , products}

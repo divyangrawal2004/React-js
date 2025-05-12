@@ -1,0 +1,167 @@
+.navbar {
+    background: white;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .nav-link {
+    color: black;
+    font-weight: 500;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .nav-link:hover {
+    color: #f43397;
+  }
+  
+  /* Border between each nav-link */
+  .contant .nav-link {
+    border-left: 1px solid rgba(0,0,0,0.2)!important;
+  }
+  
+  /* First link (Become a Supplier) se border hata dena */
+  .contant .nav-link:first-child {
+    border-left: none;
+  }
+  
+.banner {
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+  }
+  
+  .banner-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .banner-text {
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    transform: translateY(-30%);
+    color: white;
+    text-align: left;
+  }
+  
+  .banner-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+  }
+  .banner.img{
+    z-index: -1;
+  }
+  
+  .banner-text .btn {
+    background-color: white;
+    color: #f43397;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  .features {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 30px;
+    font-size: 14px;
+    border: 2px solid rgba(220, 148, 208, 0.5) !important;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);;
+  }
+  .features div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  } */
+  /* /* Basic styling for the menu container */
+.menu-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f8f8f8;
+  padding: 10px 0;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 10;
+}
+
+/* Styling for each menu item */
+.menu-item {
+  /* position: relative; */
+  /* z-index: 1; */
+}
+
+/* Styling for the menu category items */
+.menu-category {
+  cursor: pointer;
+
+  /* font-weight: bold; */
+  transition: background-color 0.3s;
+}
+
+.menu-category:hover {
+  background-color: #ddd;
+}
+
+/* Styling for the submenu */
+.submenu {
+  position: absolute;
+  top: 10; /* Menu ke just neeche khulega */
+  left: 45%; /* Center align karne ke liye */
+  transform: translateX(-50%); /* Exact center me lane ke liye */
+  background-color: white;
+  width: 1000vw !important; /* Screen ke 80% width me hi rahega */
+  max-width: 1200px; /* Maximum limit (optional) */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  display: flex !important;
+  cursor: pointer;
+  z-index: 1111111;
+  /* flex-wrap: wrap; Jyada items aaye to wrap ho jaye */
+  justify-content: start; /* Items ko left se align karne ke liye */
+}
+
+.submenu {
+  display: flex;
+  gap: 20px;
+}
+
+.submenu > div {
+  min-width: 20px; /* ya jitna bada chahte ho */
+}
+
+.menu-item:hover .submenu {
+  display: flex;
+}
+
+
+/* Styling for submenu items */
+.submenu-item {
+  margin-bottom: 10px;
+
+}
+
+.submenu-item{
+  width: 100% !important;
+  
+}
+.submenu-item strong {
+  font-weight: bold;
+}
+
+.submenu-item ul {
+  list-style: none;
+  padding: 0;
+}
+
+.submenu-item ul li {
+  padding: 5px 0;
+  font-size: 14px;
+}

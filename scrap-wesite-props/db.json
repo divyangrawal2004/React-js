@@ -1,0 +1,31 @@
+{
+  "header": [
+    {
+      "id": "1",
+      "name": "home"
+    },
+    {
+      "id": "2",
+      "name": "about"
+    },
+    {
+      "id": "3",
+      "name": "contact"
+    }
+    
+  ],
+  "banner": [
+    {
+      "id": "1",
+      "name": "https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/1558a721300c7f6d.jpg?q=20"
+    },
+    {
+      "id": "2",
+      "name": "https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/076c4f2ee87225d7.jpg?q=20"
+    },
+    {
+      "id": "3",
+      "name": "https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/c955a6d703b17e61.jpg?q=20"
+    }
+  ]
+}

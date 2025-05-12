@@ -1,0 +1,475 @@
+.navbar {
+    background: white;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .nav-link {
+    color: black;
+    font-weight: 500;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .nav-link:hover {
+    color: #f43397;
+  }
+  
+  /* Border between each nav-link */
+  .contant .nav-link {
+    border-left: 1px solid rgba(0,0,0,0.2)!important;
+  }
+  
+  /* First link (Become a Supplier) se border hata dena */
+  .contant .nav-link:first-child {
+    border-left: none;
+  }
+  
+.banner {
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+  }
+  
+  .banner-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .banner-text {
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    transform: translateY(-30%);
+    color: white;
+    text-align: left;
+  }
+  
+  .banner-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+  }
+  .banner.img{
+    z-index: -1;
+  }
+  
+  .banner-text .btn {
+    background-color: white;
+    color: #f43397;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  .features {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 30px;
+    font-size: 14px;
+    border: 2px solid rgba(220, 148, 208, 0.5) !important;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);;
+  }
+  .features div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  } */
+  /* /* Basic styling for the menu container */
+.menu-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f8f8f8;
+  padding: 10px 0;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 10;
+}
+
+/* Styling for the menu category items */
+.menu-category {
+  cursor: pointer;
+
+  /* font-weight: bold; */
+  transition: background-color 0.3s;
+}
+
+.menu-category:hover {
+  background-color: #ddd;
+}
+
+/* Styling for the submenu */
+.submenu {
+  position: absolute;
+  top: 10; /* Menu ke just neeche khulega */
+  left: 45%; /* Center align karne ke liye */
+  transform: translateX(-50%); /* Exact center me lane ke liye */
+  background-color: white;
+  width: 1000vw !important; /* Screen ke 80% width me hi rahega */
+  max-width: 1200px; /* Maximum limit (optional) */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  display: flex !important;
+  cursor: pointer;
+  z-index: 1111111;
+  /* flex-wrap: wrap; Jyada items aaye to wrap ho jaye */
+  justify-content: start; /* Items ko left se align karne ke liye */
+}
+
+.submenu {
+  display: flex;
+  gap: 20px;
+}
+
+.submenu > div {
+  min-width: 20px; /* ya jitna bada chahte ho */
+}
+
+.menu-item:hover .submenu {
+  display: flex;
+}
+
+
+/* Styling for submenu items */
+.submenu-item {
+  margin-bottom: 10px;
+
+}
+
+.submenu-item{
+  width: 100% !important;
+  
+}
+.submenu-item strong {
+  font-weight: bold;
+}
+
+.submenu-item ul {
+  list-style: none;
+  padding: 0;
+}
+
+.submenu-item ul li {
+  padding: 5px 0;
+  font-size: 14px;
+}
+.categories-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+.categories-container div {
+  text-align: center;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.categories-container img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  /* background: #ffeaf0; */
+  padding: 10px;
+  object-fit: contain;
+}
+.gold-banner {
+  background-image: url('https://images.meesho.com/images/marketing/1744698265981.webp');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 100px;
+  color: white;
+  min-height: 100vh;
+}
+
+.gold-content {
+  max-width: 40%;
+}
+
+.gold-title {
+  font-size: 60px;
+  font-weight: bold;
+  color: #f7cd6c;
+  display: flex;
+  align-items: center;
+}
+
+.gold-subtitle {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.shop-now {
+  margin-top: 500px;
+  margin-left: 100px;
+  /* right: 50px; */
+  padding: 15px 50px;
+  font-size: 20px;
+  background-color: #f7cd6c;
+  color: #4d2c05;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.gold-categories {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.category {
+  /* background-color: rgba(255, 255, 255, 0.1); */
+  /* border: 2px solid #f7cd6c; */
+  border-radius: 12px;
+  text-align: center;
+  padding: 15px;
+  width: 200px;
+  cursor: pointer;
+}
+
+.category img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.category span {
+  display: block;
+  margin-top: 8px;
+  font-size: 18px;
+  color: #f7cd6c;
+}
+
+.original-brands-section {
+  margin: 40px 20px;
+  font-family: sans-serif;
+}
+
+.brands-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.brands-header h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.verified {
+  color: #6a1b9a;
+  font-size: 20px;
+  margin-left: 8px;
+}
+
+.view-all {
+  color: #c2185b;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.brands-slider {
+  display: flex;
+  overflow-x: auto;
+  gap: 16px;
+  padding-bottom: 10px;
+}
+
+.brand-card {
+  flex: 0 0 auto;
+  width: 230px;
+  border-radius: 12px;
+  /* background-color: #f6f2ff; */
+  /* border: 1px solid #e0e0e0; */
+  text-align: center;
+  cursor: pointer;
+  padding: 15px 10px;
+}
+
+.brand-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.brand-name {
+  margin-top: 10px;
+  background-color: #7b1fa2;
+  color: white;
+  border-radius: 6px;
+  padding: 5px;
+  font-size: 14px;
+}
+.marquee-container {
+  overflow: hidden;
+  background-color: #f3e8ff;
+  padding: 20px 0;
+}
+
+.marquee-content {
+  display: flex;
+  width: fit-content;
+  animation: marquee 20s linear infinite;
+}
+
+.marquee-item {
+  min-width: 160px;
+  height: 100px;
+  margin: 0 16px;
+  background: white;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.marquee-item img {
+  max-height: 60px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.trendz-container {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  gap: 50px;
+  background-image: url("https://images.meesho.com/images/marketing/1744698143534.webp");
+  color: white;
+  background-size: cover;
+  background-position: center;
+}
+
+.left-panel {
+  flex: 1;
+}
+
+.left-panel h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.shop-btn {
+  background-color: white;
+  color: #600060;
+  border: none;
+  padding: 15px 30px;
+  margin-top: 140px;
+  margin-left: 80px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.right-panel {
+  flex: 3;
+  justify-content: end;
+  display: flex;
+  gap: 80px;
+}
+
+
+.card {
+  background: linear-gradient(to bottom, #ffe5b4, #ffd580);
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.card p {
+  margin-top: 10px;
+  font-weight: bold;
+  background-color: white;
+  color: #5e004f;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+.footer {
+  background: #fff;
+  color: #222;
+  padding: 40px 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer-col {
+  flex: 1;
+  min-width: 220px;
+}
+
+.app-buttons img {
+  width: 150px;
+  margin: 5px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.icon {
+  font-size: 24px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.facebook {
+  color: #1877f2;
+}
+
+.instagram {
+  color: #e4405f;
+}
+
+.youtube {
+  color: #ff0000;
+}
+
+.linkedin {
+  color: #0077b5;
+}
+
+.twitter {
+  color: #1da1f2;
+}
+
+.icon:hover {
+  opacity: 0.7;
+}

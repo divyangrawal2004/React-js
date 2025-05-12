@@ -1,0 +1,21 @@
+{
+    "Banner" : [
+        {
+            "id": 1,
+            "image": "https://images.meesho.com/images/marketing/1746168829440.webp"
+        },
+        {
+            "id": 2,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNmfBIfBiOJ4ZHSiVro-ZpGym95P5WQL-OUg&s"
+        },
+        {
+            "id": 3,
+            "image": "https://wbshopsonline.in/wp-content/uploads/2025/01/Meesho-Upcoming-Sale.jpg"
+        },
+        {
+            "id": 4,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9p9EQvgyGgEhg8W2_2jiuvCE-nO8djMWbqlOf_S9u-KKr75RZIocpkYqU4PfZ5tAJv0w&usqp=CAU"
+        }
+      
+    ]
+}
