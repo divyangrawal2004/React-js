@@ -1,0 +1,47 @@
+/* 
+.form-container {
+    background: url('./assets/image/photo-1625225230517-7426c1be750c.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+  }
+
+  .form-box {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  .submit-btn {
+    background: linear-gradient(to right, #ff4081, #ff79b0);
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background: linear-gradient(to right, #ff79b0, #ff4081);
+  }
+   */
