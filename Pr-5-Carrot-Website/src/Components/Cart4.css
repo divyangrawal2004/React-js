@@ -1,0 +1,41 @@
+/* Mobile card responsiveness */
+.OfferSlider .splide__slide {
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: black;
+  font-weight: 700;
+  background-size: cover;
+  background-position: center;
+  border-radius: 1rem;
+}
+
+.OfferSlider h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.OfferSlider p {
+  margin-top: 0.5rem;
+}
+
+.OfferSlider button {
+  width: fit-content;
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .OfferSlider .splide__slide {
+    padding: 2rem 1.5rem;
+    text-align: center;
+  }
+
+  .OfferSlider h4 {
+    font-size: 1.1rem;
+  }
+
+  .OfferSlider button {
+    margin: 1rem auto 0;
+  }
+}

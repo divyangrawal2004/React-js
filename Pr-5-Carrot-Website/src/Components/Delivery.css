@@ -1,0 +1,39 @@
+.feature-container {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  gap: 20px;
+  padding: 24px;
+  flex-wrap: wrap;
+  /* background-color:#f7f7f8; */
+
+}
+
+.feature-card {
+  background-color: #f7f7f8;
+  border-radius: 5px;
+  width: 310px;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+
+.feature-icon {
+  font-size: 36px;
+  color: #2eb26e; /* Change if you use actual icon */
+  margin-bottom: 15px;
+}
+
+.feature-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #111;
+  margin-bottom: 10px;
+}
+
+.feature-desc {
+  font-size: 14px;
+  color: #666;
+}

@@ -1,47 +1,117 @@
-/* 
-.form-container {
-    background: url('./assets/image/photo-1625225230517-7426c1be750c.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
-  
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    overflow: hidden;
-  }
+body {
+  background-image: url('https://img.freepik.com/free-photo/grey-yellow-cardboard-papers-blue-background_23-2147878463.jpg?semt=ais_hybrid&w=740');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  backdrop-filter: blur(2px);
+}
 
-  .form-box {
-    background: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(10px);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    width: 350px;
-    text-align: center;
-  }
-  
-  input, select {
-    width: 100%;
-    padding: 10px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-  }
+h1 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-size: 34px;
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5);
+}
 
-  .submit-btn {
-    background: linear-gradient(to right, #ff4081, #ff79b0);
-    color: white;
-    padding: 10px;
-    font-size: 18px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .submit-btn:hover {
-    background: linear-gradient(to right, #ff79b0, #ff4081);
-  }
-   */
+.form-box {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  width: 250px;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fdfdfd;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+select:focus {
+  border-color: #0096c7;
+  outline: none;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 8px;
+  margin-left: 5px;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  background-color: #ffbf00;
+  border: none;
+  border-radius: 8px;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.submit-btn:hover {
+  background-color: #f0c849;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 40px;
+  width: 90%;
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+table th {
+  background-color: #0077b6;
+  color: white;
+  padding: 14px;
+  text-align: center;
+  font-size: 16px;
+}
+
+table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 15px;
+}
+
+button {
+  padding: 6px 12px;
+  background-color: #e63946;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #b02a37;
+}
+
+span {
+  display: block;
+  margin-top: 5px;
+  font-size: 13px;
+  color: red;
+}

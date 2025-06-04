@@ -1,0 +1,143 @@
+/* Sidebar Dropdown */
+.hover-dropdown:hover .dropdown-panel {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.dropdown-panel {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+  transition: all 0.3s ease-in-out;
+  width: 500px;
+}
+
+.dropdown-grid {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.dropdown-left,
+.dropdown-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-item-box,
+.dropdown-item-box2 {
+  padding: 8px 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.dropdown-item-box2 {
+  font-weight: 600;
+  color: #28a745;
+}
+
+.dropdown-item-box:hover,
+.dropdown-item-box2:hover {
+  background-color: #f2f2f2;
+}
+
+.dropdown-right-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-right-column span {
+  margin-top: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Title */
+.dropdown-title {
+  font-weight: 600;
+  color: #28a745;
+  border-bottom: 1px solid rgba(13, 15, 13, 0.4);
+  padding-bottom: 12px;
+  margin-bottom: 10px;
+}
+
+/* Center Menu Hover Dropdowns */
+.dropdown-hover {
+  position: relative;
+}
+
+.dropdown-toggle-custom {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 8px 12px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.dropdown-menu-custom {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 180px;
+  background: white;
+  border: 1px solid #ddd;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+  transition: all 0.3s ease-in-out;
+  z-index: 999;
+}
+
+.dropdown-hover:hover .dropdown-menu-custom {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.dropdown-item-custom {
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.dropdown-item-custom:hover {
+  background-color: #f8f9fa;
+}
+.dropdown-horizontal-grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.dropdown-left {
+  min-width: 180px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-right-column {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px!important;
+}
+
+.dropdown-title {
+  font-weight: 600;
+  color: #28a745;
+  border-bottom: 1px solid rgba(13, 15, 13, 0.4);
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}

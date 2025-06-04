@@ -1,0 +1,74 @@
+.greatdeal-section {
+  height: 100%;
+  max-height: 550px;
+  overflow: hidden;
+  position: relative;
+}
+
+.greatdeal-image {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  max-height: 550px;
+}
+
+/* Overlay container */
+.content-overlay {
+  max-width: 500px;
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+}
+
+/* Promo box style */
+.promo-box {
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(4px);
+}
+
+/* Responsive: Tablet & below */
+@media (max-width: 768px) {
+  .content-overlay {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    padding: 0 !important;
+  }
+
+  .promo-box {
+    padding: 1rem !important;
+  }
+
+  .promo-box h2 {
+    font-size: 1.3rem;
+  }
+
+  .promo-box p,
+  .promo-box small {
+    font-size: 0.9rem;
+  }
+
+  .promo-box .d-flex {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.75rem;
+  }
+
+  .promo-box .d-flex > div {
+    flex: 1 1 45%;
+  }
+}
+
+/* Responsive: Small mobile */
+@media (max-width: 480px) {
+  .promo-box h2 {
+    font-size: 1.1rem;
+  }
+
+  .promo-box .d-flex > div {
+    flex: 1 1 100%;
+  }
+}
