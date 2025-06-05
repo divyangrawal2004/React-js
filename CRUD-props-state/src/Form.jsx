@@ -12,14 +12,7 @@ const Form = ({ allRecords, setAllRecords , formInput  , changeInput , handleSub
             <tr>
               <td>Name :-</td>
               <td>
-                <input
-                  type="text"
-                  placeholder="enter your name"
-                  value={formInput.username}
-                  onChange={changeInput}
-                  name="username"
-                />
-              </td>
+                <input type="text"placeholder="enter your name"value={formInput.username}onChange={changeInput}name="username"/></td>
             </tr>
             <tr>
               <td>Email :-</td>
