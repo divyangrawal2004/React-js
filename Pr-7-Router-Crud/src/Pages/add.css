@@ -1,0 +1,25 @@
+body {
+  background-image: url("https://plus.unsplash.com/premium_photo-1661315477345-1a1709d2b3d5?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29udGFjdCUyMGZvcm18ZW58MHx8MHx8fDA%3D");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Segoe UI', sans-serif;
+  /* background: rgba(0, 0, 0, 0.486)!important; */
+
+}
+body::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.486)!important;
+}
+
+.card {
+  backdrop-filter: blur(6px);
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15) !important;
+}
