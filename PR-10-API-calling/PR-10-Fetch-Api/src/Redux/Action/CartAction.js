@@ -3,8 +3,8 @@ const GET_CART = () => {
         try{
 
             let data = await fetch (`https://dummyjson.com/carts`);
-            // method : "GET"
-            // Headers : {"Content-type : application/jsom"}
+            method : "GET"
+            Headers : {"Content-type : application/jsom"}
 
             let res = await data.json()
             console.log(res.carts);
