@@ -1,0 +1,97 @@
+body {
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  background-color: #3e3e3e;
+  color: white;
+  padding: 15px 0;
+  margin: 0 auto;
+  width: 60%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+input[type="text"] {
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #3e3e3e;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+}
+
+table {
+  width: 60%;
+  margin: 0 auto;
+  background-color: #f5f7f8;
+  padding: 30px;
+  border-radius: 25px;
+  border-collapse: separate;
+  border-spacing: 0 20px;
+}
+
+td {
+  text-align: left;
+  padding: 10px;
+  border:1px solid #dddddda3;
+  font-size: 16px;
+}
+th{
+  /* text-align: left; */
+  padding: 10px;
+  border:1px solid #ddd;
+  font-size: 20px;
+}
+
+td:last-child {
+  text-align: right;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #5f6e82;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #445465;
+}
+
+.clear-button {
+  display: block;
+  margin-left:auto;
+  background-color: red;
+  color: white;
+  padding: 15px 50px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.clear-button:hover {
+  background-color: darkred;
+}
