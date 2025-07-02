@@ -1,53 +1,46 @@
-import axios from "axios"
-import { useEffect, useState } from "react"
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { GET_CART } from "./Redux/Action/CartAction";
 
-function App() {
-
-  const [users,setUsers ] = useState([])
+const App = () => {
+  const dispatch = useDispatch();
+  const cartData = useSelector((state) => state.cartData.cart);
 
   useEffect(() => {
-    axios.get(`https://dummyjson.com/users`)
-    .then(res => {
-      console.log(res.data.users);
-      setUsers(res.data.users)
-      
-    }).catch(err => {
-      console.log(err);
-    })
-  },[])
+    dispatch(GET_CART());
+  }, [dispatch]);
 
-  if(users.length === 0){
-    return <h1>Loading...</h1>
+  if (cartData.length === 0) {
+    return <h1>Loading...</h1>;
   }
+
   return (
     <>
-    <h1 align="center">AXIOS API METHOD</h1>
-    <table border={1} align="center" cellPadding={10}>
-      <thead>
-        <tr>
-          <th>ID</th>
-          <th>FirstName</th>
-          <th>MiddleName</th>
-          <th>LastName</th>
-          <th>Age</th>
-        </tr>
-      </thead>
-      <tbody align="center">
-        {
-          users.map(user => (
-            <tr key={user.id}>
-              <td>{user.id}</td>
-              <td>{user.firstName}</td>
-              <td>{user.maidenName}</td>
-              <td>{user.lastName}</td>
-              <td>{user.age}</td>
-            </tr>
-          ))
-        }
-      </tbody>
-    </table>
+      <h1 align="center">Redux Thunk with Axios Cart Data</h1>
+      <table border={1} align="center" cellPadding={10}>
+        <thead>
+          <tr>
+            <th>Cart ID</th>
+            <th>Total Products</th>
+            <th>Total Price</th>
+            <th>User ID</th>
+          </tr>
+        </thead>
+        <tbody align="center">
+          {
+            cartData.map((cart) => (
+              <tr key={cart.id}>
+                <td>{cart.id}</td>
+                <td>{cart.totalProducts}</td>
+                <td>{cart.total}</td>
+                <td>{cart.userId}</td>
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
