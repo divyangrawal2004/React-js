@@ -1,0 +1,58 @@
+{
+  "students": [
+    {
+      "id": "ac6d",
+      "name": "subham",
+      "roll": "10",
+      "class": "15"
+    },
+    {
+      "id": "03bd",
+      "name": "divu rawal",
+      "roll": "122",
+      "class": "12"
+    },
+    {
+      "id": "db76",
+      "name": "rawal",
+      "roll": "111",
+      "class": "45"
+    },
+    {
+      "id": "d25e",
+      "name": "gollu",
+      "roll": "121",
+      "class": "122"
+    },
+    {
+      "id": "bda3",
+      "name": "subham",
+      "roll": "122",
+      "class": "12"
+    },
+    {
+      "id": "02ea",
+      "name": "baby",
+      "roll": "1234",
+      "class": "32"
+    },
+    {
+      "id": "5ab8",
+      "name": "dev",
+      "roll": "121",
+      "class": "00"
+    },
+    {
+      "id": "a4dc",
+      "name": "rawalSaab",
+      "roll": "712",
+      "class": "7"
+    },
+    {
+      "id": "5349",
+      "name": "tejal",
+      "roll": "110",
+      "class": "13"
+    }
+  ]
+}
